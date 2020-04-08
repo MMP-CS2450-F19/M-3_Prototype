@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 163737784}
   - component: {fileID: 163737783}
   m_Layer: 0
-  m_Name: Buttons_Blue_10 (1)
+  m_Name: Buttons_Blue_Val10_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -199,7 +199,7 @@ Transform:
   m_LocalScale: {x: 0.38700002, y: 0.27236, z: 0.22}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1 &203576137
 GameObject:
@@ -212,7 +212,7 @@ GameObject:
   - component: {fileID: 203576139}
   - component: {fileID: 203576138}
   m_Layer: 0
-  m_Name: Buttons_Blue_9 (1)
+  m_Name: Buttons_Blue_Val10_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -293,7 +293,7 @@ GameObject:
   - component: {fileID: 243738971}
   - component: {fileID: 243738970}
   m_Layer: 0
-  m_Name: Buttons_Orange_8 (1)
+  m_Name: Buttons_Orange_Val5_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -361,7 +361,7 @@ Transform:
   m_LocalScale: {x: 0.39926708, y: 0.24557261, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &443641627
 GameObject:
@@ -372,6 +372,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 443641628}
+  - component: {fileID: 443641629}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Untagged
@@ -387,12 +388,42 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 443641627}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.1860151, y: -1.338469, z: -9.599851}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &443641629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443641627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f92477e2800f749ad010c0d132a117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onePlaceList:
+  - {fileID: 537418457}
+  - {fileID: 1180469192}
+  - {fileID: 512131605}
+  - {fileID: 1248338432}
+  - {fileID: 1246410300}
+  tenPlaceList:
+  - {fileID: 860544060}
+  - {fileID: 163737782}
+  - {fileID: 203576137}
+  - {fileID: 2020197103}
+  - {fileID: 1776758469}
+  fivePlaceList:
+  - {fileID: 243738969}
+  - {fileID: 1571993367}
+  fiftyPlaceList:
+  - {fileID: 1835879236}
+  - {fileID: 572478543}
 --- !u!1 &512131605
 GameObject:
   m_ObjectHideFlags: 0
@@ -404,7 +435,7 @@ GameObject:
   - component: {fileID: 512131607}
   - component: {fileID: 512131606}
   m_Layer: 0
-  m_Name: Buttons_Blue_9 (3)
+  m_Name: Buttons_Blue_Val1_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -570,7 +601,7 @@ GameObject:
   - component: {fileID: 537418461}
   - component: {fileID: 537418460}
   m_Layer: 0
-  m_Name: Buttons_Blue_3 (1)
+  m_Name: Buttons_Blue_Val1_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -638,7 +669,7 @@ Transform:
   m_LocalScale: {x: 0.35556936, y: 0.2724579, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &537418460
 MonoBehaviour:
@@ -652,6 +683,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc528869fed9594c9e20c98195bae30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controller: {fileID: 443641629}
+  beadVal: 1
   beadState: 0
   beadMove: 1.5
 --- !u!70 &537418461
@@ -681,7 +714,7 @@ GameObject:
   - component: {fileID: 572478545}
   - component: {fileID: 572478544}
   m_Layer: 0
-  m_Name: Buttons_Orange_13
+  m_Name: Buttons_Orange_Val50_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -749,7 +782,7 @@ Transform:
   m_LocalScale: {x: 0.45362198, y: 0.24338892, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &860544060
 GameObject:
@@ -762,7 +795,7 @@ GameObject:
   - component: {fileID: 860544062}
   - component: {fileID: 860544061}
   m_Layer: 0
-  m_Name: Buttons_Blue_3
+  m_Name: Buttons_Blue_Val10_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -830,7 +863,7 @@ Transform:
   m_LocalScale: {x: 0.35556936, y: 0.2724579, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1180469192
 GameObject:
@@ -842,8 +875,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1180469194}
   - component: {fileID: 1180469193}
+  - component: {fileID: 1180469196}
+  - component: {fileID: 1180469195}
   m_Layer: 0
-  m_Name: Buttons_Blue_10 (3)
+  m_Name: Buttons_Blue_Val1_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -911,8 +946,40 @@ Transform:
   m_LocalScale: {x: 0.38700002, y: 0.27236, z: 0.22}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!114 &1180469195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180469192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fc528869fed9594c9e20c98195bae30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 443641629}
+  beadVal: 1
+  beadState: 0
+  beadMove: 1
+--- !u!70 &1180469196
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180469192}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 5.06, y: 3.22}
+  m_Direction: 1
 --- !u!1 &1246410300
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,7 +991,7 @@ GameObject:
   - component: {fileID: 1246410302}
   - component: {fileID: 1246410301}
   m_Layer: 0
-  m_Name: Buttons_Blue_9 (2)
+  m_Name: Buttons_Blue_Val1_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -992,7 +1059,7 @@ Transform:
   m_LocalScale: {x: 0.36487752, y: 0.22343999, z: 0.22343999}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1248338432
 GameObject:
@@ -1005,7 +1072,7 @@ GameObject:
   - component: {fileID: 1248338434}
   - component: {fileID: 1248338433}
   m_Layer: 0
-  m_Name: Buttons_Blue_10 (2)
+  m_Name: Buttons_Blue_Val1_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1073,7 +1140,7 @@ Transform:
   m_LocalScale: {x: 0.38700002, y: 0.27236, z: 0.22}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1571993367
 GameObject:
@@ -1086,7 +1153,7 @@ GameObject:
   - component: {fileID: 1571993369}
   - component: {fileID: 1571993368}
   m_Layer: 0
-  m_Name: Buttons_Orange_13 (1)
+  m_Name: Buttons_Orange_Val5_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1154,7 +1221,7 @@ Transform:
   m_LocalScale: {x: 0.45362198, y: 0.24338892, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1776758469
 GameObject:
@@ -1167,7 +1234,7 @@ GameObject:
   - component: {fileID: 1776758471}
   - component: {fileID: 1776758470}
   m_Layer: 0
-  m_Name: Buttons_Blue_9
+  m_Name: Buttons_Blue_Val10_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1235,7 +1302,7 @@ Transform:
   m_LocalScale: {x: 0.36487752, y: 0.22343999, z: 0.22343999}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1835879236
 GameObject:
@@ -1248,7 +1315,7 @@ GameObject:
   - component: {fileID: 1835879238}
   - component: {fileID: 1835879237}
   m_Layer: 0
-  m_Name: Buttons_Orange_8
+  m_Name: Buttons_Orange_Val50_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1316,7 +1383,7 @@ Transform:
   m_LocalScale: {x: 0.39926708, y: 0.24557261, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1926226219
 GameObject:
@@ -1409,7 +1476,7 @@ GameObject:
   - component: {fileID: 2020197105}
   - component: {fileID: 2020197104}
   m_Layer: 0
-  m_Name: Buttons_Blue_10
+  m_Name: Buttons_Blue_Val10_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1477,5 +1544,5 @@ Transform:
   m_LocalScale: {x: 0.38700002, y: 0.27236, z: 0.22}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

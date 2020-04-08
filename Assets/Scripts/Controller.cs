@@ -5,11 +5,11 @@ using UnityEngine;
 public class Controller : MonoBehaviour
 {
     // Lists for beads
-    public List<Sprite> onePlaceList;
-    public List<Sprite> tenPlaceList;
-    public List<Sprite> fivePlaceList;
-    public List<Sprite> fiftyPlaceList;
-    
+    public List<GameObject> onePlaceList = new List<GameObject>();
+    public List<GameObject> tenPlaceList = new List<GameObject>();
+    public List<GameObject> fivePlaceList = new List<GameObject>();
+    public List<GameObject> fiftyPlaceList = new List<GameObject>();
+
 
     // Start is called before the first frame update
     void Start()
